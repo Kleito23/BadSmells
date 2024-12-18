@@ -5,8 +5,4 @@ public abstract Vehiculo{
     this.numLlantas = numLlantas;
     }
 }
-public class Bote extends Vehiculo{
-    public Bote(){
-    super(0);
-  }
-}
+
