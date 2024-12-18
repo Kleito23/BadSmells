@@ -1,4 +1,4 @@
-public abstract Vehiculo{
+public abstract class Vehiculo{
   private int numLlantas;
 
   public Vehiculo(int numLlantas){
