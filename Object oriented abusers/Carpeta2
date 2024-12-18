@@ -1,0 +1,12 @@
+public abstract Vehiculo{
+  private int numLlantas;
+
+  public Vehiculo(int numLlantas){
+    this.numLlantas = numLlantas;
+    }
+}
+public class Bote extends Vehiculo{
+    public Bote(){
+    super(0);
+  }
+}
